@@ -3,7 +3,7 @@ import './Hero.css';
 import Navbar from './Navbar';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import lenis from '../utils/ lenis-init'
+import lenis from '../utils/ lenis-init';
 gsap.registerPlugin(ScrollTrigger);
 const Hero = () => {
   const heroRef = useRef(null);
